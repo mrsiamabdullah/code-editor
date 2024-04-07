@@ -18,10 +18,6 @@
   // config related to code formatting ---
   // "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  // "[javascript]": {
-  //   "editor.formatOnSave": false,
-  //   "editor.defaultFormatter": null
-  // },
   "[javascriptreact]": {
     "editor.formatOnSave": false,
     "editor.defaultFormatter": null
@@ -31,11 +27,9 @@
     "source.fixAll.tslint": "explicit",
     "source.organizeImports": "explicit"
   },
-  "editor.cursorBlinking": "phase",
   "vscode_custom_css.imports": [
     "file:///c:/Users/siama/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
   ],
-  "terminal.integrated.stickyScroll.enabled": true,
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -44,7 +38,7 @@
   },
   "eslint.alwaysShowStatus": true,
   //terminal
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 15,
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
   // terminal customization
@@ -78,5 +72,9 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.fontSize": 16
+  "editor.fontSize": 15,
+  "workbench.tree.enableStickyScroll": false,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.cursorBlinking": "phase"
 }
