@@ -14,9 +14,8 @@
   },
   // cursor
   "editor.cursorSmoothCaretAnimation": "on",
-  // "editor.cursorBlinking": "expand",
+  "editor.cursorBlinking": "phase",
   // config related to code formatting ---
-  // "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "[javascriptreact]": {
     "editor.formatOnSave": false,
@@ -75,6 +74,5 @@
   "editor.fontSize": 15,
   "workbench.tree.enableStickyScroll": false,
   "editor.stickyScroll.scrollWithEditor": false,
-  "editor.stickyScroll.enabled": false,
-  "editor.cursorBlinking": "phase"
+  "editor.stickyScroll.enabled": false
 }
