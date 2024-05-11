@@ -71,13 +71,14 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.fontSize": 15,
+  "editor.fontSize": 16,
   "workbench.tree.enableStickyScroll": false,
   "editor.stickyScroll.scrollWithEditor": false,
-  "editor.stickyScroll.enabled": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "eslint.run": "onSave",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
-  }
+  },
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": false
 }
