@@ -72,7 +72,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.fontSize": 16,
-  "workbench.tree.enableStickyScroll": false,
   "editor.stickyScroll.scrollWithEditor": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "eslint.run": "onSave",
@@ -80,5 +79,6 @@
     "javascript": "javascriptreact"
   },
   "editor.smoothScrolling": true,
-  "editor.stickyScroll.enabled": false
+  "editor.stickyScroll.enabled": false,
+  "workbench.list.smoothScrolling": true
 }
