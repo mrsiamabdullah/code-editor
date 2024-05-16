@@ -1,6 +1,6 @@
 {
   "editor.fontLigatures": true,
-  "editor.fontWeight": "400",
+  "editor.fontWeight": "325",
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
   "editor.tokenColorCustomizations": {
@@ -39,7 +39,7 @@
   "eslint.alwaysShowStatus": true,
   //terminal
   "terminal.integrated.fontSize": 15,
-  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontWeight": "600",
   "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
   // terminal customization
   "workbench.colorCustomizations": {
@@ -69,10 +69,10 @@
   },
   "editor.fontFamily": "Operator Mono, Fira Code",
   "workbench.iconTheme": "vscode-icons",
+  "editor.fontSize": 16,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.fontSize": 16,
   "editor.stickyScroll.scrollWithEditor": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "eslint.run": "onSave",
@@ -81,5 +81,10 @@
   },
   "editor.smoothScrolling": true,
   "editor.stickyScroll.enabled": false,
-  "workbench.list.smoothScrolling": true
+  "workbench.list.smoothScrolling": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.openRepositoryInParentFolders": "never",
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showExecutionMessage": false,
+  "output.smartScroll.enabled": false
 }
