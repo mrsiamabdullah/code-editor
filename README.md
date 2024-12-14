@@ -1,3 +1,4 @@
+```
 {
   "editor.fontLigatures": true,
   "editor.fontWeight": "350",
@@ -92,3 +93,4 @@
   "editor.tabSize": 2,
   "liveServer.settings.donotVerifyTags": true
 }
+```
