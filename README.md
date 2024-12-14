@@ -1,6 +1,3 @@
-<h1>My VS Code Settings</h1>
-
-```
 {
   "editor.fontLigatures": true,
   "editor.fontWeight": "350",
@@ -92,6 +89,6 @@
   "editor.fontFamily": "Operator Mono, 'Fira Code'",
   "cSpell.language": "en,lorem,en-GB,en-US",
   "cSpell.userWords": ["Redmi"],
-  "workbench.colorTheme": "GitHub Dark"
+  "editor.tabSize": 2,
+  "liveServer.settings.donotVerifyTags": true
 }
-```
