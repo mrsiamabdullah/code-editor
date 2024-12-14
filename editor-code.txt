@@ -1,6 +1,6 @@
 {
   "editor.fontLigatures": true,
-  "editor.fontWeight": "325",
+  "editor.fontWeight": "350",
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
   "editor.tokenColorCustomizations": {
@@ -39,7 +39,7 @@
   "eslint.alwaysShowStatus": true,
   //terminal
   "terminal.integrated.fontSize": 15,
-  "terminal.integrated.fontWeight": "600",
+  "terminal.integrated.fontWeight": "400",
   "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
   // terminal customization
   "workbench.colorCustomizations": {
@@ -67,14 +67,12 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.fontFamily": "Operator Mono, Fira Code",
   "workbench.iconTheme": "vscode-icons",
   "editor.fontSize": 16,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.stickyScroll.scrollWithEditor": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "eslint.run": "onSave",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
@@ -86,5 +84,11 @@
   "git.openRepositoryInParentFolders": "never",
   "code-runner.clearPreviousOutput": true,
   "code-runner.showExecutionMessage": false,
-  "output.smartScroll.enabled": false
+  "output.smartScroll.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "Operator Mono, 'Fira Code'",
+  "cSpell.language": "en,lorem,en-GB,en-US",
+  "cSpell.userWords": ["Redmi"],
+  "editor.tabSize": 2,
+  "liveServer.settings.donotVerifyTags": true
 }
